@@ -1,0 +1,11 @@
+version: '3'
+services:
+  backend:
+    image: todolist-backend:1.0
+    ports:
+      - "3001:3001"
+    networks:
+      - todolist-net
+
+networks:
+  todolist-net:

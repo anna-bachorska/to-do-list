@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap'); */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Caveat", cursive;
+  /* font-family: 'Courier Prime', monospace;  */
+  font-size: 28px;
+}
+
+body {
+  background-image: url("./images/pen-gb547a3127_1920.jpg");
+  background-size: cover;
+  display: flex;
+  background-attachment: fixed;
+  background-position: center;
+  justify-content: center;
+}
+
+.App {
+  margin-top: 100px;
+}
+
+.line-through-on {
+  text-decoration: line-through;
+}
+.line-through-off {
+  text-decoration: none;
+}
