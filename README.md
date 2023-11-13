@@ -38,11 +38,13 @@ First run the backend as described below in a console terminal
 Then run the frontend as described below in another console terminal
 
 - Backend
+
 Change to the directory "to-do-list-backend".
 Run "npm install"
 Run "npm start"
 
 - Testing backend
+
 Prerequisite: "npm install" has already been run for the backend
 
 Open new console terminal
@@ -51,11 +53,13 @@ Run "npm install --save-dev jest"
 Run "npm test"
 
 - Frontend
+
 Change to the directory "to-do-list-frontend".
 Run "npm install"
 Run "npm start"
 
 - Testing frontend
+
 Prerequisite: "npm install" has already been run for the frontend
 
 Open new console terminal
@@ -63,6 +67,6 @@ Change to the directory "to-do-list-frontend".
 Run "npm install --save-dev jest"
 Run "npm test"
 
-### Desktop overview layout
+## Desktop overview layout
 ![Alt text](to-do-list-frontend/src/images/Screen.jpg)
 
